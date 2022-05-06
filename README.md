@@ -17,7 +17,7 @@ wego是一款把个人微信号变成微信机器人的应用，使用一种自�
 ## 快速开始
 
 ```shell
-git clone ""
+git clone https://github.com/Mr-lay/wego-bot.git
 
 npm install
 
