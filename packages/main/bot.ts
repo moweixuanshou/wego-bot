@@ -189,7 +189,7 @@ function createTaskFlow(taskFlowConfig: any, load: boolean){
                 for(let key in task.inputParaVerify){
                     if(task.inputParaVerify[key].dataPool){
                         console.log(oldTask.inputPara)
-                        input[key] = newTaskFlow.dataPool[oldTask.inputPara[key].source+'-'+key]
+                        // input[key] = newTaskFlow.dataPool[oldTask.inputPara[key].source+'-'+key]
                     }else{
                         input[key] = oldTask.inputPara[key]
                     }
